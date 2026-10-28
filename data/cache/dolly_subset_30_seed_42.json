@@ -1,0 +1,182 @@
+[
+  {
+    "instruction": "Tell me when did the Borussia Dortmund found?",
+    "context": "Ballspielverein Borussia 09 e. V. Dortmund, commonly known as Borussia Dortmund (German pronunciation: [bo\u02c8\u0281\u028asi\u032fa\u02d0 \u02c8d\u0254\u0250\u032ftm\u028ant] (listen)), BVB (pronounced [be\u02d0fa\u028a\u032f\u02c8be\u02d0] (listen)), or simply Dortmund (pronounced [\u02c8d\u0254\u0281tm\u028ant] (listen)), is a German professional sports club based in Dortmund, North Rhine-Westphalia. It is best known for its men's professional football team, which plays in the Bundesliga, the top tier of the German football league system. The club have won eight league championships, five DFB-Pokals, one UEFA Champions League, one Intercontinental Cup, and one UEFA Cup Winners' Cup.\n\nFounded in 1909 by eighteen football players from Dortmund, the football team is part of a large membership-based sports club with more than 145,000 members, making Borussia Dortmund the second largest sports club by membership in Germany. The club has active departments in other sports, namely in women's handball. Since 1974, Dortmund have played their home games at Westfalenstadion; the stadium is the largest in Germany, and Dortmund has the highest average attendance of any association football club in the world.",
+    "response": "Founded in 1909",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "classify the following as outfits vs appliances: dress, shoes, toaster, jackets, fridge, air fryer, instant pot, vest, gloves, pants, jeans",
+    "context": "",
+    "response": "outfits: dress, shoes, jackets, vest, gloves, pants, jeans\nappliances: toaster, fridge, air fryer, instant pot",
+    "category": "classification"
+  },
+  {
+    "instruction": "What is an LCR circuit?",
+    "context": "",
+    "response": "An LCR circuit is a resonant circuit that is also often called an RLC circuit. It consist of an inductor (L), a capacitor (C), and a resistor (R). The three components may be connected in series or in parallel.\n\nRadio and television receivers contain oscillators that are based on the LCR circuit. The circuit is used to tune into transmitting stations.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Who was Raghib Pasha?",
+    "context": "Isma'il ibn Ahmad ibn Hassan bani Yani (Arabic: \u0625\u0633\u0645\u0627\u0639\u064a\u0644 \u0628\u0646 \u0623\u062d\u0645\u062f \u0628\u0646 \u062d\u0633\u0646 \u0628\u0646\u064a \u064a\u0646\u064a), known simply as Isma'il Ragheb Pasha (Arabic: \u0625\u0633\u0645\u0627\u0639\u064a\u0644 \u0631\u0627\u063a\u0628 \u0628\u0627\u0634\u0627) (1819\u20131884), was a Greek Ottoman politician who served as a Prime Minister of Egypt and held several other high-ranking government positions.\n\nIsma'il Ragheb was of Greek ancestry and was born in Greece on 18 August 1819 on either the island of Chios following the great massacre of Candia, Crete. After being kidnapped to Anatolia he was brought to Egypt as a slave by Ibrahim Pasha in 1830 and was converted to Islam. Immediately following his arrival, he studied at al-Maktab al-Amiri and obtained his advanced degree in 1834. He was fluent in Greek and was elevated to the rank of First Lieutenant by Egypt's viceroy Muhammad Ali Pasha. In 1836, he became head of the Accounting and Revenue Agencies. He was promoted to the rank of bikbashi (Lieutenant Colonel) in 1840, then kaymakam (Colonel) in 1844, and finally amiralay (Brigadier General) in 1846.[citation needed]\n\nHe held the positions of Minister of Finance (1858\u20131860), then Minister of War (1860\u20131861).[citation needed] He became Inspector for the Maritime Provinces in 1862, and later Assistant (Arabic: \u0628\u0627\u0634\u0645\u0639\u0627\u0648\u0646) to viceroy Isma'il Pasha (1863\u20131865). He was granted the title of beylerbey and then appointed President of the Privy council in 1868. He was appointed President of the Chamber of Deputies (1866\u20131867), then Minister of Interior in 1867, then Minister of Agriculture and Trade in 1875.[citation needed] He again held the Finance portfolio in Muhammad Sharif Pasha's first government (1879). After the fall of Mahmoud Sami el-Baroudi's government, Isma'il Ragheb became Prime Minister of Egypt in 1882.[citation needed] Although his government was short-lived (it lasted from 17 June to 21 August only), it was the only one to present concrete programs. His achievements include the modernisation of the budget through the inventory of revenues and expenses, the Law on Salaries, and the La'eha Sa'ideyya as well as several agricultural laws.[citation needed]\n\nIsma'il Ragheb died in 1884.[citation needed]",
+    "response": "Raghib Pasha was a Greek Ottoman politician who served in various roles in Egypt during the mid to late 1800s, including Prime Minister of Egypt for a brief period.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "India with the world's highest TB burden, introduced the BCG mass immunisation in which year?",
+    "context": "",
+    "response": "1948",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What does Pinot noir mean?",
+    "context": "Pinot noir (French: [pino nwa\u0281]) is a red-wine grape variety of the species Vitis vinifera. The name may also refer to wines created predominantly from pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone\u2013shaped bunches of fruit.",
+    "response": "Pinot noir is a red-wine grape.  The name is a combination of the two french words for pine and black.",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "How large is South Africa's economy?",
+    "context": "South Africa has a mixed economy, the third largest in Africa, after Nigeria and Egypt and the 39th largest in the world. It also has a relatively high gross domestic product (GDP) per capita compared to other countries in sub-Saharan Africa US$16,040 at purchasing power parity as of 2023 ranked 95th. \n\nSouth Africa is ranked 40th by total Wealth, making it the second wealthiest country in Africa, and in terms of private wealth South Africa has a private wealth of $651 billion making it the wealthiest country in Africa by private wealth followed by Egypt with $307 billion and Nigeria with $228 billion.\n\nUnlike most of the world's poor countries, South Africa does not have a thriving informal economy. Only 15% of South African jobs are in the informal sector, compared with around half in Brazil and India",
+    "response": "South Africa has the third largest economy in Africa, and is the second wealthiest country on the continent, and the wealthiest by private wealth ($651 billion), followed by Egypt with $307 billion and Nigeria with $228 billion. South Africa's economy is mainly formal, with only 15% of jobs in the informal sector, compared with 50% in Brazil and India who have a thriving informal economy.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "Classify each as either a game or a sport: chess, checkers, badminton, monopoly, table tennis, swimming, diving, bridge, basketball, go, shogi, tennis, risk, field hockey.",
+    "context": "",
+    "response": "Chess, checkers, monopoly, bridge, go, shogi, and risk are games. Badminton, table tennis, swimming, diving, bassketball, tennis, and field hockey are sports.",
+    "category": "classification"
+  },
+  {
+    "instruction": "What are five totally distinct, creative ways to describe the usefulness of the police?",
+    "context": "",
+    "response": "1. The police serve as a \"watchful guardian\" to keep us safe.\n2. The police are a \"protector of the law\" who protects us from harm.\n3. The police are an \"impartial enforcer\" of the law.\n4. The police are an \"intermediary of justice\" who helps us get justice.\n5. The police are a \"counselor of the law\" who helps us understand the law.",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "Write a paragraph about the best things to do while vacationing in Palm Springs, California.",
+    "context": "",
+    "response": "Palm Springs, California is a popular vacation destination for visitors from all over the world. It features a vibrant downtown shopping district and many opportunities for exploring the Sonoran Desert desert habitat. Visitors can enjoy a wide range of restaurant fare and many exciting attractions. The city is well known for its annual Modernism Week, when the city is packed with visitors touring the city's remarkable collection of mid-century modern homes and buildings. Throughout the surrounding Coachella Valley, visitors also have many options for golf, hiking, biking, and horseback riding. The city is surrounded by national parks and landmarks, and is about an hour's drive from one of the nation's most popular parks: Joshua Tree National Park.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "What is an anemone?",
+    "context": "",
+    "response": "Anemone can be a small plant on land with pink, blue or white flowers \nor a soft sea creature living on the rocks under the water and resembling a flower.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Where is the best place to vacation in the Bahamas?",
+    "context": "",
+    "response": "Harbour Island is a small island in the Bahamas, accessible via the airport at North Eleuthera. Flights leave Miami, Fort Lauderdale or Nassau, several times daily. From Florida, Harbour Island is a 45min paddle jumper flight to North Eleuthera and then a 10 minute speed boat. \nHarbour Island has 8 hotels, Coral Sands, Pink Sands, Ramora Bay, Valentines, The Rockhouse, and The Dunmore. The Landing. All are boutique hotels. Coral Sands is about 90 rooms and the largest. There are no cars allowed in Harbour Island. Everyone travels by golf cart. Restaurants are great on the Island, and no visit is complete without a visit to Daddy D's nightclub.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "Extract, in order from largest earning to smallest, the biggest earning markets for the premier of Moana, the 2016 Disney film.",
+    "context": "The biggest earning markets to date have been Japan ($45.9 million), followed by France ($35.5 million), China ($32.8 million), the UK ($25.3 million), Brazil ($22.9 million), Australia ($19 million), Germany ($17 million), Italy ($15.9 million), and South Korea ($15.5 million).",
+    "response": "Japan ($45.9 million), followed by France ($35.5 million), China ($32.8 million), the UK ($25.3 million), Brazil ($22.9 million), Australia ($19 million), Germany ($17 million), Italy ($15.9 million), and South Korea ($15.5 million).",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Extract what Operating systems openRA supports from the below text and list them in a seperate line",
+    "context": "OpenRA is an open source game engine reimplementation and remake of several Command & Conquer games, including Red Alert. It is built using OpenGL and SDL, has support for HiDPI, and is cross platform, supporting Windows, Linux, macOS, and FreeBSD. The engine has support for custom mods via an SDK. The games are remade for modern computers with updated gameplay, new campaigns, user-created and curated maps, and online play. Deviations from the originals included a choice between \u201cright click\u201d and classic \u201cleft click\u201d control schemes, an overhauled sidebar interfaces for managing productions, support for game replays and an observer interface designed for video game live streaming. Fog of war that obscures the battlefield outside your units\u2019 line of sight, civilian structures that can be captured to provide benefits and units gain experience as they fight and improve when they earn new ranks. The game supports handicapping players, Discord integration and community ladders. Experimental support for the remastered assets was published in 2023 as a binary compatible yet separate mod.",
+    "response": "Here are the operating systems supported by OpenRA:\nWindows\nLinux\nmacOS\nFreeBSD",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "From the passage provided, extract the year in which Elizabeth Taylor moved to Los Angeles",
+    "context": "Dame Elizabeth Rosemond Taylor DBE (February 27, 1932 \u2013 March 23, 2011) was a British-American actress. She began her career as a child actress in the early 1940s and was one of the most popular stars of classical Hollywood cinema in the 1950s. She then became the world's highest paid movie star in the 1960s, remaining a well-known public figure for the rest of her life. In 1999, the American Film Institute named her the seventh-greatest female screen legend of Classic Hollywood cinema.\n\nBorn in London to socially prominent American parents, Taylor moved with her family to Los Angeles in 1939. She made her acting debut with a minor role in the Universal Pictures film There's One Born Every Minute (1942), but the studio ended her contract after a year. She was then signed by Metro-Goldwyn-Mayer and became a popular teen star after appearing in National Velvet (1944). She transitioned to mature roles in the 1950s, when she starred in the comedy Father of the Bride (1950) and received critical acclaim for her performance in the drama A Place in the Sun (1951). She starred in \"Ivanhoe\" with Robert Taylor and Joan Fontaine. (1952). Despite being one of MGM's most bankable stars, Taylor wished to end her career in the early 1950s. She resented the studio's control and disliked many of the films to which she was assigned. She began receiving more enjoyable roles in the mid-1950s, beginning with the epic drama Giant (1956), and starred in several critically and commercially successful films in the following years. These included two film adaptations of plays by Tennessee Williams: Cat on a Hot Tin Roof (1958), and Suddenly, Last Summer (1959); Taylor won a Golden Globe for Best Actress for the latter. Although she disliked her role as a call girl in BUtterfield 8 (1960), her last film for MGM, she won the Academy Award for Best Actress for her performance.",
+    "response": "Elizabeth Taylor moved to Los Angeles in the year 1939",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Classify the below states based on which coast they are located .\nConnecticut, Delaware, Florida, Georgia, Maine, Maryland, California, Oregon",
+    "context": "",
+    "response": "East Coast - Connecticut, Delaware, Florida, Georgia, Maine, Maryland\nWest Coast - California, Oregon",
+    "category": "classification"
+  },
+  {
+    "instruction": "Make a list, using dot points, of the last five cities who hosted the Olympics.",
+    "context": "",
+    "response": "The last five cities to host the Olympic Games were:\n- Tokyo, Japan (2021),\n- Rio, Brazil (2016),\n- London, England (2012),\n- Beijing, China (2008),\n- Athens, Greece (2004).",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "Which characters belong to DC or Marvel Universe? Namor, Aquaman",
+    "context": "",
+    "response": "Aquaman is DC, Namor is Marvel",
+    "category": "classification"
+  },
+  {
+    "instruction": "What rhymes with orange?",
+    "context": "",
+    "response": "There is only one perfect rhyming word for orange which is \"sporange.\" A sporange is an old botanical term for \"sporangium.\" The sporangium is the portion of a fern where asexual spores are created.",
+    "category": "classification"
+  },
+  {
+    "instruction": "Identify which car manufacturer is Japanese or American: Lila, Lincoln",
+    "context": "",
+    "response": "Lila is Japanese, Lincoln is American",
+    "category": "classification"
+  },
+  {
+    "instruction": "What does Lady Gaga affectionately call her fans?",
+    "context": "",
+    "response": "Little monsters.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name}",
+    "context": "Kevin Stanley Rohleder (7 April 1920 \u2013 14 August 1983) was an Australian rules footballer who had played with St Kilda in the Victorian Football League (VFL). His brother, Noel Rohleder, played one game for South Melbourne. The son of Veronica Harriet Stanley (1899\u20131970), Kevin Stanley was born at Carlton, Victoria on 7 April 1920. He later took the surname Rohleder after his mother married Walter John Rohleder (1897\u20131982) in 1923.",
+    "response": "\u2022 Kevin Stanley Rohleder\n\u2022 Noel Rohleder\n\u2022 Veronica Harriet Stanley\n\u2022 Walter John Rohleder",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Choose the word which is different from the rest: Emu, Ostrich, Kiwi, Eagle",
+    "context": "",
+    "response": "The listed words include types of birds that can be found in different parts of the world.  The answer to the question is Eagle as the rest of the birds listed are all flightless birds",
+    "category": "classification"
+  },
+  {
+    "instruction": "What is the difference between speed and velocity?",
+    "context": "",
+    "response": "Speed and velocity are different terms. Speed is a measurement of distance over time. Velocity is a measurement of distance over time in a direction. Speed is scalar and can only be positive. Velocity is a vector and can either be positive or negative. For example, an object moving at a speed of 50 km/h tells us only how quickly it is moving but not its direction. An object with a velocity of +50 km/h tells us its speed and that it is moving forwards. Conversely, an object with a velocity of -50 km/h tells us its speed and that it is moving backward.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Tell me which of these are science fiction movies and which are fantasy: Lord of the Rings, Star Trek, Princess Mononoke, the Wheel of Time, District 9",
+    "context": "",
+    "response": "From your list, the science fiction movies are Star Trek and District 9. The Fantasy movies are Lord of the Rings, Princess Mononoke, and the Wheel of Time.",
+    "category": "classification"
+  },
+  {
+    "instruction": "How do you play Baseball?",
+    "context": "",
+    "response": "Baseball is a game between two teams involving a baseball, which is a ball that is about 2 inches in diameter, and a bat used to hit the ball. Two teams alternate turns pitching and hitting the ball. The hitting team attempts to score as many runs by advancing through the four bases, prior to their team getting three outs during their turn hitting. The pitching team's objective is to prevent the hitting team from scoring runs. Games traditionally last 9 innings, with each team having the opportunity to both hit and pitch 9 times. The team with the most runs after 9 innings wins the game.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "who is Hugh Ogden?",
+    "context": "Hugh Ogden (March 11, 1937 \u2013 December 31, 2006) was an American poet and educator. Ogden was a 1959 graduate of Haverford College. Ogden received his master\u2019s degree from New York University and a Ph.D. from the University of Michigan. He taught at Michigan and then for four decades at Trinity College in Hartford. While at Trinity, Ogden co-founded the College\u2019s creative writing program in 1968.\n\nOgden was born in Erie, Pennsylvania. Ogden has written an estimated 400 to 500 poems, many of which have been published in small presses and magazines, and he has won a National Endowment for the Arts grant and two Connecticut Commission on the Arts Fellowships. In 1998, Ogden was nominated for the Pushcart Prize in Poetry.\n\nOgden died on December 31, 2006, after falling through the ice on Rangeley Lake in Oquossoc, Maine.",
+    "response": "Hugh Ogden was an American poet who taught at Trinity College in Hartford, CT. Ogden wrote an estimated 400 to 500 poems, and was published with his book \"Gift\".  He was born in Erie, Pennsylvania and won several poetry awards and co-founded the College's creative writing program in 1968 at Trinity College.  Ogden died on December 31, 2006, after falling through the ice.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "Given this reference text about Gorbachev, tell me whether he was an ally of Yeltsin and Putin.",
+    "context": "Although committed to preserving the Soviet state and its Marxist\u2013Leninist ideals, Gorbachev believed significant reform necessary for survival. He withdrew troops from the Soviet\u2013Afghan War and embarked on summits with United States president Ronald Reagan to limit nuclear weapons and end the Cold War. Domestically, his policy of glasnost (\"openness\") allowed for enhanced freedom of speech and press, while his perestroika (\"restructuring\") sought to decentralize economic decision-making to improve its efficiency. His democratization measures and formation of the elected Congress of People's Deputies undermined the one-party state. Gorbachev declined to intervene militarily when various Eastern Bloc countries abandoned Marxist\u2013Leninist governance in 1989\u20131992. Internally, growing nationalist sentiment threatened to break up the Soviet Union, leading Marxist\u2013Leninist hardliners to launch the unsuccessful August Coup against Gorbachev in 1991. In the coup's wake, the Soviet Union dissolved against Gorbachev's wishes. After resigning from the presidency, he launched the Gorbachev Foundation, became a vocal critic of Russian presidents Boris Yeltsin and Vladimir Putin, and campaigned for Russia's social-democratic movement.",
+    "response": "According to this passage, Gorbachev was neither an ally of Yeltsin nor of Putin. In fact, he was a vocal critic of both of them.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Who was Roy Cameron? When and where did he work?",
+    "context": "The Cameron Nunataks (72\u00b036\u2032S 163\u00b043\u2032E) are a small cluster of nunataks rising above the west margin of Evans Neve, at the southern end of the Freyberg Mountains. The cluster was mapped by the United States Geological Survey from surveys and from U.S. Navy air photos, 1960\u201364, and named by the Advisory Committee on Antarctic Names for Roy E. Cameron, biologist at McMurdo Station, summers 1966\u201367 and 1967\u201368.",
+    "response": "Roy E. Cameron was a biologist. He worked in Antartica at the McMurdo Station during the summers of 1966\u201367 and 1967\u201368",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Why is the D silent in words like Bridge?",
+    "context": "",
+    "response": "The letter \"J\" was created by an Italian in 1524, initially as an alternative to the roman numeral I.  Its usage as a typical alphabet letter in English became common in the 17th century.  Before this addition, to make the sound J in English, we used the letters \"dg.\"  You can typically tell how old a word is by whether it uses the \"dg\" or J in its spelling; the newer words use the letter J.",
+    "category": "general_qa"
+  }
+]

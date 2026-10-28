@@ -1,0 +1,62 @@
+experiment_id: exp_adaptive_compression
+description: "Federated LoRA fine-tuning with adaptive communication compression (AdaComp)"
+output_dir: outputs/adaptive_compression
+seed: 42
+device: cpu
+
+model:
+  model_name_or_path: tiny
+  is_surrogate: true
+  vocab_size: 1000
+  hidden_size: 128
+  num_hidden_layers: 2
+  num_attention_heads: 4
+  max_seq_length: 128
+  torch_dtype: float32
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - q_proj
+    - v_proj
+  bias: none
+
+data:
+  dataset_name: databricks/databricks-dolly-15k
+  num_samples: 300
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  partition_strategy: non_iid_dirichlet
+  dirichlet_alpha: 0.5
+  num_clients: 3
+  seed: 42
+  cache_dir: data/cache
+
+privacy:
+  enabled: false
+  privacy_unit: client
+  clipping_norm: 1.0
+  noise_multiplier: 1.0
+  target_delta: 0.00001
+  accountant_type: rdp
+
+compression:
+  enabled: true
+  strategy: adaptive_adacomp
+  fixed_k_ratio: 0.10
+  adaptive_min_ratio: 0.02
+  adaptive_max_ratio: 0.25
+  energy_threshold: 0.85
+  error_feedback: true
+  quantization_bits: 16
+
+federated:
+  num_rounds: 5
+  clients_per_round: 3
+  local_epochs: 1
+  local_batch_size: 4
+  local_lr: 0.0002
+  aggregation_strategy: fedavg

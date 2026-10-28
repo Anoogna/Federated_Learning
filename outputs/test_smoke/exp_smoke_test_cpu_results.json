@@ -1,0 +1,262 @@
+{
+  "experiment_id": "exp_smoke_test_cpu",
+  "config": {
+    "experiment_id": "exp_smoke_test_cpu",
+    "description": "CPU smoke test verifying end-to-end federated pipeline with TinyCausalLM",
+    "output_dir": "outputs/test_smoke",
+    "seed": 42,
+    "device": "cpu",
+    "model": {
+      "model_name_or_path": "tiny",
+      "is_surrogate": true,
+      "vocab_size": 1000,
+      "hidden_size": 128,
+      "num_hidden_layers": 2,
+      "num_attention_heads": 4,
+      "max_seq_length": 64,
+      "torch_dtype": "float32"
+    },
+    "lora": {
+      "r": 4,
+      "lora_alpha": 8,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "bias": "none"
+    },
+    "data": {
+      "dataset_name": "databricks/databricks-dolly-15k",
+      "num_samples": 30,
+      "train_ratio": 0.7,
+      "val_ratio": 0.15,
+      "test_ratio": 0.15,
+      "partition_strategy": "non_iid_dirichlet",
+      "dirichlet_alpha": 0.5,
+      "num_clients": 3,
+      "seed": 42,
+      "cache_dir": "data/cache"
+    },
+    "privacy": {
+      "enabled": true,
+      "privacy_unit": "client",
+      "clipping_norm": 1.0,
+      "noise_multiplier": 0.5,
+      "target_delta": 1e-05,
+      "accountant_type": "rdp"
+    },
+    "compression": {
+      "enabled": true,
+      "strategy": "adaptive_adacomp",
+      "fixed_k_ratio": 0.1,
+      "adaptive_min_ratio": 0.05,
+      "adaptive_max_ratio": 0.3,
+      "energy_threshold": 0.85,
+      "error_feedback": true,
+      "quantization_bits": 16
+    },
+    "federated": {
+      "num_rounds": 2,
+      "clients_per_round": 3,
+      "local_epochs": 1,
+      "local_batch_size": 4,
+      "local_lr": 0.0005,
+      "aggregation_strategy": "fedavg"
+    }
+  },
+  "parameter_stats": {
+    "total_params": 396288,
+    "trainable_params": 4096,
+    "trainable_percent": 1.0336
+  },
+  "heterogeneity_stats": {
+    "categories": [
+      "brainstorming",
+      "classification",
+      "closed_qa",
+      "creative_writing",
+      "general_qa",
+      "information_extraction",
+      "open_qa",
+      "summarization"
+    ],
+    "client_counts": {
+      "0": {
+        "classification": 1,
+        "information_extraction": 5,
+        "open_qa": 1,
+        "summarization": 1,
+        "creative_writing": 2,
+        "general_qa": 2,
+        "brainstorming": 1,
+        "closed_qa": 1
+      },
+      "1": {
+        "classification": 5,
+        "summarization": 1
+      },
+      "2": {
+        "open_qa": 1
+      }
+    },
+    "pairwise_tvd_matrix": [
+      [
+        0.0,
+        0.8571428571428572,
+        0.9285714285714286
+      ],
+      [
+        0.8571428571428572,
+        0.0,
+        1.0
+      ],
+      [
+        0.9285714285714286,
+        1.0,
+        0.0
+      ]
+    ],
+    "mean_tvd": 0.9285714285714285,
+    "is_heterogeneous": true
+  },
+  "initial_eval": {
+    "loss": 122.7673,
+    "perplexity": 485165195.4098,
+    "probes": [
+      {
+        "instruction": "Explain the goal of Federated Learning in one concise sentence.",
+        "generated_response": "[Probe generation skipped due to: TypeError]"
+      },
+      {
+        "instruction": "What is the primary function of Differential Privacy?",
+        "generated_response": "[Probe generation skipped due to: TypeError]"
+      },
+      {
+        "instruction": "Summarize how LoRA reduces memory usage during fine-tuning.",
+        "generated_response": "[Probe generation skipped due to: TypeError]"
+      }
+    ]
+  },
+  "final_test_eval": {
+    "loss": 121.9478,
+    "perplexity": 485165195.4098,
+    "probes": []
+  },
+  "communication_summary": {
+    "num_rounds": 2,
+    "cumulative_uplink_bytes": 5760,
+    "cumulative_downlink_bytes": 49728,
+    "cumulative_total_wire_bytes": 55488,
+    "cumulative_dense_equivalent_bytes": 99456,
+    "overall_compression_ratio": 1.79,
+    "overall_savings_percent": 44.21,
+    "history": [
+      {
+        "round_idx": 1,
+        "num_participating_clients": 3,
+        "uplink_wire_bytes": 2880,
+        "downlink_wire_bytes": 24864,
+        "total_wire_bytes": 27744,
+        "dense_equivalent_bytes": 49728,
+        "round_compression_ratio": 1.79,
+        "round_savings_percent": 44.21
+      },
+      {
+        "round_idx": 2,
+        "num_participating_clients": 3,
+        "uplink_wire_bytes": 2880,
+        "downlink_wire_bytes": 24864,
+        "total_wire_bytes": 27744,
+        "dense_equivalent_bytes": 49728,
+        "round_compression_ratio": 1.79,
+        "round_savings_percent": 44.21
+      }
+    ]
+  },
+  "privacy_summary": {
+    "noise_multiplier": 0.5,
+    "target_delta": 1e-05,
+    "sample_rate": 1.0,
+    "total_steps": 2,
+    "spent_epsilon": 17.6753,
+    "history": [
+      {
+        "step": 1,
+        "epsilon": 11.6052,
+        "delta": 1e-05
+      },
+      {
+        "step": 2,
+        "epsilon": 17.6753,
+        "delta": 1e-05
+      }
+    ]
+  },
+  "history": [
+    {
+      "round": 0,
+      "val_loss": 122.7673,
+      "val_perplexity": 485165195.4098,
+      "cumulative_wire_bytes": 0,
+      "cumulative_dense_bytes": 0,
+      "overall_compression_ratio": 1.0,
+      "spent_epsilon": 0.0,
+      "probes": [
+        {
+          "instruction": "Explain the goal of Federated Learning in one concise sentence.",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        },
+        {
+          "instruction": "What is the primary function of Differential Privacy?",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        },
+        {
+          "instruction": "Summarize how LoRA reduces memory usage during fine-tuning.",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "avg_client_loss": 119.9268,
+      "val_loss": 122.7681,
+      "val_perplexity": 485165195.4098,
+      "round_wire_bytes": 27744,
+      "round_dense_bytes": 49728,
+      "round_compression_ratio": 1.79,
+      "cumulative_wire_bytes": 27744,
+      "cumulative_dense_bytes": 49728,
+      "overall_compression_ratio": 1.79,
+      "spent_epsilon": 11.6052,
+      "probes": []
+    },
+    {
+      "round": 2,
+      "avg_client_loss": 119.9241,
+      "val_loss": 122.7699,
+      "val_perplexity": 485165195.4098,
+      "round_wire_bytes": 27744,
+      "round_dense_bytes": 49728,
+      "round_compression_ratio": 1.79,
+      "cumulative_wire_bytes": 55488,
+      "cumulative_dense_bytes": 99456,
+      "overall_compression_ratio": 1.79,
+      "spent_epsilon": 17.6753,
+      "probes": [
+        {
+          "instruction": "Explain the goal of Federated Learning in one concise sentence.",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        },
+        {
+          "instruction": "What is the primary function of Differential Privacy?",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        },
+        {
+          "instruction": "Summarize how LoRA reduces memory usage during fine-tuning.",
+          "generated_response": "[Probe generation skipped due to: TypeError]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "instruction": "Tell me when did the Borussia Dortmund found?",
+    "context": "Ballspielverein Borussia 09 e. V. Dortmund, commonly known as Borussia Dortmund (German pronunciation: [bo\u02c8\u0281\u028asi\u032fa\u02d0 \u02c8d\u0254\u0250\u032ftm\u028ant] (listen)), BVB (pronounced [be\u02d0fa\u028a\u032f\u02c8be\u02d0] (listen)), or simply Dortmund (pronounced [\u02c8d\u0254\u0281tm\u028ant] (listen)), is a German professional sports club based in Dortmund, North Rhine-Westphalia. It is best known for its men's professional football team, which plays in the Bundesliga, the top tier of the German football league system. The club have won eight league championships, five DFB-Pokals, one UEFA Champions League, one Intercontinental Cup, and one UEFA Cup Winners' Cup.\n\nFounded in 1909 by eighteen football players from Dortmund, the football team is part of a large membership-based sports club with more than 145,000 members, making Borussia Dortmund the second largest sports club by membership in Germany. The club has active departments in other sports, namely in women's handball. Since 1974, Dortmund have played their home games at Westfalenstadion; the stadium is the largest in Germany, and Dortmund has the highest average attendance of any association football club in the world.",
+    "response": "Founded in 1909",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "classify the following as outfits vs appliances: dress, shoes, toaster, jackets, fridge, air fryer, instant pot, vest, gloves, pants, jeans",
+    "context": "",
+    "response": "outfits: dress, shoes, jackets, vest, gloves, pants, jeans\nappliances: toaster, fridge, air fryer, instant pot",
+    "category": "classification"
+  },
+  {
+    "instruction": "What is an LCR circuit?",
+    "context": "",
+    "response": "An LCR circuit is a resonant circuit that is also often called an RLC circuit. It consist of an inductor (L), a capacitor (C), and a resistor (R). The three components may be connected in series or in parallel.\n\nRadio and television receivers contain oscillators that are based on the LCR circuit. The circuit is used to tune into transmitting stations.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Who was Raghib Pasha?",
+    "context": "Isma'il ibn Ahmad ibn Hassan bani Yani (Arabic: \u0625\u0633\u0645\u0627\u0639\u064a\u0644 \u0628\u0646 \u0623\u062d\u0645\u062f \u0628\u0646 \u062d\u0633\u0646 \u0628\u0646\u064a \u064a\u0646\u064a), known simply as Isma'il Ragheb Pasha (Arabic: \u0625\u0633\u0645\u0627\u0639\u064a\u0644 \u0631\u0627\u063a\u0628 \u0628\u0627\u0634\u0627) (1819\u20131884), was a Greek Ottoman politician who served as a Prime Minister of Egypt and held several other high-ranking government positions.\n\nIsma'il Ragheb was of Greek ancestry and was born in Greece on 18 August 1819 on either the island of Chios following the great massacre of Candia, Crete. After being kidnapped to Anatolia he was brought to Egypt as a slave by Ibrahim Pasha in 1830 and was converted to Islam. Immediately following his arrival, he studied at al-Maktab al-Amiri and obtained his advanced degree in 1834. He was fluent in Greek and was elevated to the rank of First Lieutenant by Egypt's viceroy Muhammad Ali Pasha. In 1836, he became head of the Accounting and Revenue Agencies. He was promoted to the rank of bikbashi (Lieutenant Colonel) in 1840, then kaymakam (Colonel) in 1844, and finally amiralay (Brigadier General) in 1846.[citation needed]\n\nHe held the positions of Minister of Finance (1858\u20131860), then Minister of War (1860\u20131861).[citation needed] He became Inspector for the Maritime Provinces in 1862, and later Assistant (Arabic: \u0628\u0627\u0634\u0645\u0639\u0627\u0648\u0646) to viceroy Isma'il Pasha (1863\u20131865). He was granted the title of beylerbey and then appointed President of the Privy council in 1868. He was appointed President of the Chamber of Deputies (1866\u20131867), then Minister of Interior in 1867, then Minister of Agriculture and Trade in 1875.[citation needed] He again held the Finance portfolio in Muhammad Sharif Pasha's first government (1879). After the fall of Mahmoud Sami el-Baroudi's government, Isma'il Ragheb became Prime Minister of Egypt in 1882.[citation needed] Although his government was short-lived (it lasted from 17 June to 21 August only), it was the only one to present concrete programs. His achievements include the modernisation of the budget through the inventory of revenues and expenses, the Law on Salaries, and the La'eha Sa'ideyya as well as several agricultural laws.[citation needed]\n\nIsma'il Ragheb died in 1884.[citation needed]",
+    "response": "Raghib Pasha was a Greek Ottoman politician who served in various roles in Egypt during the mid to late 1800s, including Prime Minister of Egypt for a brief period.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "India with the world's highest TB burden, introduced the BCG mass immunisation in which year?",
+    "context": "",
+    "response": "1948",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What does Pinot noir mean?",
+    "context": "Pinot noir (French: [pino nwa\u0281]) is a red-wine grape variety of the species Vitis vinifera. The name may also refer to wines created predominantly from pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone\u2013shaped bunches of fruit.",
+    "response": "Pinot noir is a red-wine grape.  The name is a combination of the two french words for pine and black.",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "How large is South Africa's economy?",
+    "context": "South Africa has a mixed economy, the third largest in Africa, after Nigeria and Egypt and the 39th largest in the world. It also has a relatively high gross domestic product (GDP) per capita compared to other countries in sub-Saharan Africa US$16,040 at purchasing power parity as of 2023 ranked 95th. \n\nSouth Africa is ranked 40th by total Wealth, making it the second wealthiest country in Africa, and in terms of private wealth South Africa has a private wealth of $651 billion making it the wealthiest country in Africa by private wealth followed by Egypt with $307 billion and Nigeria with $228 billion.\n\nUnlike most of the world's poor countries, South Africa does not have a thriving informal economy. Only 15% of South African jobs are in the informal sector, compared with around half in Brazil and India",
+    "response": "South Africa has the third largest economy in Africa, and is the second wealthiest country on the continent, and the wealthiest by private wealth ($651 billion), followed by Egypt with $307 billion and Nigeria with $228 billion. South Africa's economy is mainly formal, with only 15% of jobs in the informal sector, compared with 50% in Brazil and India who have a thriving informal economy.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "Classify each as either a game or a sport: chess, checkers, badminton, monopoly, table tennis, swimming, diving, bridge, basketball, go, shogi, tennis, risk, field hockey.",
+    "context": "",
+    "response": "Chess, checkers, monopoly, bridge, go, shogi, and risk are games. Badminton, table tennis, swimming, diving, bassketball, tennis, and field hockey are sports.",
+    "category": "classification"
+  },
+  {
+    "instruction": "What are five totally distinct, creative ways to describe the usefulness of the police?",
+    "context": "",
+    "response": "1. The police serve as a \"watchful guardian\" to keep us safe.\n2. The police are a \"protector of the law\" who protects us from harm.\n3. The police are an \"impartial enforcer\" of the law.\n4. The police are an \"intermediary of justice\" who helps us get justice.\n5. The police are a \"counselor of the law\" who helps us understand the law.",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "Write a paragraph about the best things to do while vacationing in Palm Springs, California.",
+    "context": "",
+    "response": "Palm Springs, California is a popular vacation destination for visitors from all over the world. It features a vibrant downtown shopping district and many opportunities for exploring the Sonoran Desert desert habitat. Visitors can enjoy a wide range of restaurant fare and many exciting attractions. The city is well known for its annual Modernism Week, when the city is packed with visitors touring the city's remarkable collection of mid-century modern homes and buildings. Throughout the surrounding Coachella Valley, visitors also have many options for golf, hiking, biking, and horseback riding. The city is surrounded by national parks and landmarks, and is about an hour's drive from one of the nation's most popular parks: Joshua Tree National Park.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "What is an anemone?",
+    "context": "",
+    "response": "Anemone can be a small plant on land with pink, blue or white flowers \nor a soft sea creature living on the rocks under the water and resembling a flower.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Where is the best place to vacation in the Bahamas?",
+    "context": "",
+    "response": "Harbour Island is a small island in the Bahamas, accessible via the airport at North Eleuthera. Flights leave Miami, Fort Lauderdale or Nassau, several times daily. From Florida, Harbour Island is a 45min paddle jumper flight to North Eleuthera and then a 10 minute speed boat. \nHarbour Island has 8 hotels, Coral Sands, Pink Sands, Ramora Bay, Valentines, The Rockhouse, and The Dunmore. The Landing. All are boutique hotels. Coral Sands is about 90 rooms and the largest. There are no cars allowed in Harbour Island. Everyone travels by golf cart. Restaurants are great on the Island, and no visit is complete without a visit to Daddy D's nightclub.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "Extract, in order from largest earning to smallest, the biggest earning markets for the premier of Moana, the 2016 Disney film.",
+    "context": "The biggest earning markets to date have been Japan ($45.9 million), followed by France ($35.5 million), China ($32.8 million), the UK ($25.3 million), Brazil ($22.9 million), Australia ($19 million), Germany ($17 million), Italy ($15.9 million), and South Korea ($15.5 million).",
+    "response": "Japan ($45.9 million), followed by France ($35.5 million), China ($32.8 million), the UK ($25.3 million), Brazil ($22.9 million), Australia ($19 million), Germany ($17 million), Italy ($15.9 million), and South Korea ($15.5 million).",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Extract what Operating systems openRA supports from the below text and list them in a seperate line",
+    "context": "OpenRA is an open source game engine reimplementation and remake of several Command & Conquer games, including Red Alert. It is built using OpenGL and SDL, has support for HiDPI, and is cross platform, supporting Windows, Linux, macOS, and FreeBSD. The engine has support for custom mods via an SDK. The games are remade for modern computers with updated gameplay, new campaigns, user-created and curated maps, and online play. Deviations from the originals included a choice between \u201cright click\u201d and classic \u201cleft click\u201d control schemes, an overhauled sidebar interfaces for managing productions, support for game replays and an observer interface designed for video game live streaming. Fog of war that obscures the battlefield outside your units\u2019 line of sight, civilian structures that can be captured to provide benefits and units gain experience as they fight and improve when they earn new ranks. The game supports handicapping players, Discord integration and community ladders. Experimental support for the remastered assets was published in 2023 as a binary compatible yet separate mod.",
+    "response": "Here are the operating systems supported by OpenRA:\nWindows\nLinux\nmacOS\nFreeBSD",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "From the passage provided, extract the year in which Elizabeth Taylor moved to Los Angeles",
+    "context": "Dame Elizabeth Rosemond Taylor DBE (February 27, 1932 \u2013 March 23, 2011) was a British-American actress. She began her career as a child actress in the early 1940s and was one of the most popular stars of classical Hollywood cinema in the 1950s. She then became the world's highest paid movie star in the 1960s, remaining a well-known public figure for the rest of her life. In 1999, the American Film Institute named her the seventh-greatest female screen legend of Classic Hollywood cinema.\n\nBorn in London to socially prominent American parents, Taylor moved with her family to Los Angeles in 1939. She made her acting debut with a minor role in the Universal Pictures film There's One Born Every Minute (1942), but the studio ended her contract after a year. She was then signed by Metro-Goldwyn-Mayer and became a popular teen star after appearing in National Velvet (1944). She transitioned to mature roles in the 1950s, when she starred in the comedy Father of the Bride (1950) and received critical acclaim for her performance in the drama A Place in the Sun (1951). She starred in \"Ivanhoe\" with Robert Taylor and Joan Fontaine. (1952). Despite being one of MGM's most bankable stars, Taylor wished to end her career in the early 1950s. She resented the studio's control and disliked many of the films to which she was assigned. She began receiving more enjoyable roles in the mid-1950s, beginning with the epic drama Giant (1956), and starred in several critically and commercially successful films in the following years. These included two film adaptations of plays by Tennessee Williams: Cat on a Hot Tin Roof (1958), and Suddenly, Last Summer (1959); Taylor won a Golden Globe for Best Actress for the latter. Although she disliked her role as a call girl in BUtterfield 8 (1960), her last film for MGM, she won the Academy Award for Best Actress for her performance.",
+    "response": "Elizabeth Taylor moved to Los Angeles in the year 1939",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Classify the below states based on which coast they are located .\nConnecticut, Delaware, Florida, Georgia, Maine, Maryland, California, Oregon",
+    "context": "",
+    "response": "East Coast - Connecticut, Delaware, Florida, Georgia, Maine, Maryland\nWest Coast - California, Oregon",
+    "category": "classification"
+  },
+  {
+    "instruction": "Make a list, using dot points, of the last five cities who hosted the Olympics.",
+    "context": "",
+    "response": "The last five cities to host the Olympic Games were:\n- Tokyo, Japan (2021),\n- Rio, Brazil (2016),\n- London, England (2012),\n- Beijing, China (2008),\n- Athens, Greece (2004).",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "Which characters belong to DC or Marvel Universe? Namor, Aquaman",
+    "context": "",
+    "response": "Aquaman is DC, Namor is Marvel",
+    "category": "classification"
+  },
+  {
+    "instruction": "What rhymes with orange?",
+    "context": "",
+    "response": "There is only one perfect rhyming word for orange which is \"sporange.\" A sporange is an old botanical term for \"sporangium.\" The sporangium is the portion of a fern where asexual spores are created.",
+    "category": "classification"
+  },
+  {
+    "instruction": "Identify which car manufacturer is Japanese or American: Lila, Lincoln",
+    "context": "",
+    "response": "Lila is Japanese, Lincoln is American",
+    "category": "classification"
+  },
+  {
+    "instruction": "What does Lady Gaga affectionately call her fans?",
+    "context": "",
+    "response": "Little monsters.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name}",
+    "context": "Kevin Stanley Rohleder (7 April 1920 \u2013 14 August 1983) was an Australian rules footballer who had played with St Kilda in the Victorian Football League (VFL). His brother, Noel Rohleder, played one game for South Melbourne. The son of Veronica Harriet Stanley (1899\u20131970), Kevin Stanley was born at Carlton, Victoria on 7 April 1920. He later took the surname Rohleder after his mother married Walter John Rohleder (1897\u20131982) in 1923.",
+    "response": "\u2022 Kevin Stanley Rohleder\n\u2022 Noel Rohleder\n\u2022 Veronica Harriet Stanley\n\u2022 Walter John Rohleder",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Choose the word which is different from the rest: Emu, Ostrich, Kiwi, Eagle",
+    "context": "",
+    "response": "The listed words include types of birds that can be found in different parts of the world.  The answer to the question is Eagle as the rest of the birds listed are all flightless birds",
+    "category": "classification"
+  },
+  {
+    "instruction": "What is the difference between speed and velocity?",
+    "context": "",
+    "response": "Speed and velocity are different terms. Speed is a measurement of distance over time. Velocity is a measurement of distance over time in a direction. Speed is scalar and can only be positive. Velocity is a vector and can either be positive or negative. For example, an object moving at a speed of 50 km/h tells us only how quickly it is moving but not its direction. An object with a velocity of +50 km/h tells us its speed and that it is moving forwards. Conversely, an object with a velocity of -50 km/h tells us its speed and that it is moving backward.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Tell me which of these are science fiction movies and which are fantasy: Lord of the Rings, Star Trek, Princess Mononoke, the Wheel of Time, District 9",
+    "context": "",
+    "response": "From your list, the science fiction movies are Star Trek and District 9. The Fantasy movies are Lord of the Rings, Princess Mononoke, and the Wheel of Time.",
+    "category": "classification"
+  },
+  {
+    "instruction": "How do you play Baseball?",
+    "context": "",
+    "response": "Baseball is a game between two teams involving a baseball, which is a ball that is about 2 inches in diameter, and a bat used to hit the ball. Two teams alternate turns pitching and hitting the ball. The hitting team attempts to score as many runs by advancing through the four bases, prior to their team getting three outs during their turn hitting. The pitching team's objective is to prevent the hitting team from scoring runs. Games traditionally last 9 innings, with each team having the opportunity to both hit and pitch 9 times. The team with the most runs after 9 innings wins the game.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "who is Hugh Ogden?",
+    "context": "Hugh Ogden (March 11, 1937 \u2013 December 31, 2006) was an American poet and educator. Ogden was a 1959 graduate of Haverford College. Ogden received his master\u2019s degree from New York University and a Ph.D. from the University of Michigan. He taught at Michigan and then for four decades at Trinity College in Hartford. While at Trinity, Ogden co-founded the College\u2019s creative writing program in 1968.\n\nOgden was born in Erie, Pennsylvania. Ogden has written an estimated 400 to 500 poems, many of which have been published in small presses and magazines, and he has won a National Endowment for the Arts grant and two Connecticut Commission on the Arts Fellowships. In 1998, Ogden was nominated for the Pushcart Prize in Poetry.\n\nOgden died on December 31, 2006, after falling through the ice on Rangeley Lake in Oquossoc, Maine.",
+    "response": "Hugh Ogden was an American poet who taught at Trinity College in Hartford, CT. Ogden wrote an estimated 400 to 500 poems, and was published with his book \"Gift\".  He was born in Erie, Pennsylvania and won several poetry awards and co-founded the College's creative writing program in 1968 at Trinity College.  Ogden died on December 31, 2006, after falling through the ice.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "Given this reference text about Gorbachev, tell me whether he was an ally of Yeltsin and Putin.",
+    "context": "Although committed to preserving the Soviet state and its Marxist\u2013Leninist ideals, Gorbachev believed significant reform necessary for survival. He withdrew troops from the Soviet\u2013Afghan War and embarked on summits with United States president Ronald Reagan to limit nuclear weapons and end the Cold War. Domestically, his policy of glasnost (\"openness\") allowed for enhanced freedom of speech and press, while his perestroika (\"restructuring\") sought to decentralize economic decision-making to improve its efficiency. His democratization measures and formation of the elected Congress of People's Deputies undermined the one-party state. Gorbachev declined to intervene militarily when various Eastern Bloc countries abandoned Marxist\u2013Leninist governance in 1989\u20131992. Internally, growing nationalist sentiment threatened to break up the Soviet Union, leading Marxist\u2013Leninist hardliners to launch the unsuccessful August Coup against Gorbachev in 1991. In the coup's wake, the Soviet Union dissolved against Gorbachev's wishes. After resigning from the presidency, he launched the Gorbachev Foundation, became a vocal critic of Russian presidents Boris Yeltsin and Vladimir Putin, and campaigned for Russia's social-democratic movement.",
+    "response": "According to this passage, Gorbachev was neither an ally of Yeltsin nor of Putin. In fact, he was a vocal critic of both of them.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Who was Roy Cameron? When and where did he work?",
+    "context": "The Cameron Nunataks (72\u00b036\u2032S 163\u00b043\u2032E) are a small cluster of nunataks rising above the west margin of Evans Neve, at the southern end of the Freyberg Mountains. The cluster was mapped by the United States Geological Survey from surveys and from U.S. Navy air photos, 1960\u201364, and named by the Advisory Committee on Antarctic Names for Roy E. Cameron, biologist at McMurdo Station, summers 1966\u201367 and 1967\u201368.",
+    "response": "Roy E. Cameron was a biologist. He worked in Antartica at the McMurdo Station during the summers of 1966\u201367 and 1967\u201368",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Why is the D silent in words like Bridge?",
+    "context": "",
+    "response": "The letter \"J\" was created by an Italian in 1524, initially as an alternative to the roman numeral I.  Its usage as a typical alphabet letter in English became common in the 17th century.  Before this addition, to make the sound J in English, we used the letters \"dg.\"  You can typically tell how old a word is by whether it uses the \"dg\" or J in its spelling; the newer words use the letter J.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Given a reference text about the Battle of Thermopylae, tell me when the battle was fought, who the battle was between, how many Greek and Persian forces there were, how the Persian army was able to flank the Greek forces and who won the battle?",
+    "context": "The Battle of Thermopylae (/\u03b8\u0259r\u02c8m\u0252p\u026ali\u02d0/ th\u0259r-MOP-i-lee; Greek: \u039c\u03ac\u03c7\u03b7 \u03c4\u1ff6\u03bd \u0398\u03b5\u03c1\u03bc\u03bf\u03c0\u03c5\u03bb\u1ff6\u03bd, M\u00e1ch\u0113 t\u014dn Thermopyl\u014dn) was fought in 480 BC between the Achaemenid Persian Empire under Xerxes I and an alliance of Greek city-states led by Sparta under Leonidas I. Lasting over the course of three days, it was one of the most prominent battles of both the second Persian invasion of Greece and the wider Greco-Persian Wars.\n\nThe engagement at Thermopylae occurred simultaneously with the Battle of Artemisium: between July and September 480 BC. The second Persian invasion under Xerxes I was a delayed response to the failure of the first Persian invasion, which had been initiated by Darius I and ended in 490 BC by an Athenian-led Greek victory at the Battle of Marathon. By 480 BC, a decade after the Persian defeat at Marathon, Xerxes had amassed a massive land and naval force, and subsequently set out to conquer all of Greece. In response, the Athenian politician and general Themistocles proposed that the allied Greeks block the advance of the Persian army at the pass of Thermopylae while simultaneously blocking the Persian navy at the Straits of Artemisium.\n\nAround the start of the invasion, a Greek force of approximately 7,000 men led by Leonidas marched north to block the pass of Thermopylae. Ancient authors vastly inflated the size of the Persian army, with estimates in the millions, but modern scholars estimate it at between 120,000 and 300,000 soldiers. They arrived at Thermopylae by late August or early September; the outnumbered Greeks held them off for seven days (including three of direct battle) before their rear-guard was annihilated in one of history's most famous last stands. During two full days of battle, the Greeks blocked the only road by which the massive Persian army could traverse the narrow pass. After the second day, a local resident named Ephialtes revealed to the Persians the existence of a path leading behind the Greek lines. Subsequently, Leonidas, aware that his force was being outflanked by the Persians, dismissed the bulk of the Greek army and remained to guard their retreat along with 300 Spartans and 700 Thespians. It has been reported that others also remained, including up to 900 helots and 400 Thebans. With the exception of the Thebans, most of whom reportedly surrendered, the Greeks fought the Persians to the death.\n\nThemistocles was in command of the Greek naval force at Artemisium when he received news that the Persians had taken the pass at Thermopylae. Since the Greek defensive strategy had required both Thermopylae and Artemisium to be held, the decision was made to withdraw to the island of Salamis. The Persians overran Boeotia and then captured the evacuated city of Athens. The Greek fleet\u2014seeking a decisive victory over the Persian armada\u2014attacked and defeated the invading force at the Battle of Salamis in late 480 BC. Wary of being trapped in Europe, Xerxes withdrew with much of his army to Asia, reportedly losing many of his troops to starvation and disease while also leaving behind the Persian military commander Mardonius to continue the Achaemenid Empire's Greek campaign. However, the following year saw a Greek army decisively defeat Mardonius and his troops at the Battle of Plataea, ending the second Persian invasion.\n\nBoth ancient and modern writers have used the Battle of Thermopylae as a flagship example of the power of an army defending its native soil. The performance of the Greek defenders is also used as an example of the advantages of training, equipment, and use of terrain as force multipliers.",
+    "response": "The Battle of Thermopylae was fought in 480 BC. The battle was fought between the Persian Empire, led by Xerxes I, and a combination of allied Greek city-states led by Leonidas I of Sparta. There were approximately 7,000 Greek men led by Leonidas I and an estimated 120,000 - 300,000 Persian soldiers led by Xerxes I. The Persian army was able to outflank the Greek army because a local person named Ephialtes informed the Persians that there was an unguarded path that lead behind the Greek lines. The Greek army made one final stand but ultimately were unsuccessful and were over taken by the Persian army.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "What are specific reasons for seasons?",
+    "context": "",
+    "response": "Planet Earth has a tilt of 23.5 degrees. This causes the hemispheres to be either closer or farther from the sun. Also, the axial tilt changes the amount of sunlight hitting the earth at any given time.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Who was the first man to walk on the moon?",
+    "context": "",
+    "response": "Neil Armstrong, 1969",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Why do sheep keepers paint their sheep?",
+    "context": "Another trait unique to domestic sheep as compared to wild ovines is their wide variation in color. Wild sheep are largely variations of brown hues, and variation within species is extremely limited. Colors of domestic sheep range from pure white to dark chocolate brown, and even spotted or piebald. Sheep keepers also sometimes artificially paint \"smit marks\" onto their sheep in any pattern or color for identification. Selection for easily dyeable white fleeces began early in sheep domestication, and as white wool is a dominant trait it spread quickly. However, colored sheep do appear in many modern breeds, and may even appear as a recessive trait in white flocks. While white wool is desirable for large commercial markets, there is a niche market for colored fleeces, mostly for handspinning. The nature of the fleece varies widely among the breeds, from dense and highly crimped, to long and hairlike. There is variation of wool type and quality even among members of the same flock, so wool classing is a step in the commercial processing of the fibre.",
+    "response": "Sheep keepers sometimes artificially paint \"smit marks\" onto their sheep in any pattern or color for identification.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Provide a list of diseases which spread in the Diamond Princess and the virus that caused them. Use bulleted list in the format \u2018Disease Name - Virus Name - year\u2019.",
+    "context": "Diamond Princess is a British-registered cruise ship owned and operated by Princess Cruises. She began operation in March 2004 and primarily cruises in Asia during the northern hemisphere summer and Australia during the southern hemisphere summer. She is a subclassed Grand-class ship, which is also known as a Gem-class ship. Diamond Princess and her sister ship, Sapphire Princess, are the widest subclass of Grand-class ships, as they have a 37.5-metre (123 ft 0 in) beam, while all other Grand-class ships have a beam of 36 metres (118 ft 1 in). Diamond Princess and Sapphire Princess were both built in Nagasaki, Japan, by Mitsubishi Industries.\n\nThere have been two notable outbreaks of infectious disease on the ship \u2013 an outbreak of gastroenteritis caused by norovirus in 2016 and an outbreak of COVID-19 caused by SARS-CoV-2 in 2020. In the latter incident, the ship was quarantined for nearly a month with her passengers on board, and her passengers and crew were subject to further quarantine after disembarking. At least 712 out of the 3,711 passengers and crew were infected, and by mid-April 2020 nine had died.",
+    "response": "Gastroenteritis - norovirus - 2016\nCOVID-19 - SARS-CoV-2 - 2020",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "What is Angel Falls?",
+    "context": "Angel Falls (Spanish: Salto \u00c1ngel; Pemon language: Kerepakupai Mer\u00fa meaning \"waterfall of the deepest place\", or Parakup\u00e1 Ven\u00e1, meaning \"the fall from the highest point\") is a waterfall in Venezuela. It is the world's tallest uninterrupted waterfall, with a height of 979 metres (3,212 ft) and a plunge of 807 m (2,648 ft). The waterfall drops over the edge of the Auy\u00e1n-tepui mountain in the Canaima National Park (Spanish: Parque Nacional Canaima), a UNESCO World Heritage site in the Gran Sabana region of Bol\u00edvar State. The height figure, 979 m (3,212 ft), mostly consists of the main plunge but also includes about 400 metres (1,300 ft) of sloped cascade and rapids below the drop and a 30-metre-high (100 ft) plunge downstream of the talus rapids.",
+    "response": "Angel Falls (Spanish: Salto \u00c1ngel; Pemon language: Kerepakupai Mer\u00fa meaning \"waterfall of the deepest place\", or Parakup\u00e1 Ven\u00e1, meaning \"the fall from the highest point\") is a waterfall in Venezuela. It is the world's tallest uninterrupted waterfall, with a height of 979 metres (3,212 ft) and a plunge of 807 m (2,648 ft). The waterfall drops over the edge of the Auy\u00e1n-tepui mountain in the Canaima National Park (Spanish: Parque Nacional Canaima), a UNESCO World Heritage site in the Gran Sabana region of Bol\u00edvar State. The height figure, 979 m (3,212 ft), mostly consists of the main plunge but also includes about 400 metres (1,300 ft) of sloped cascade and rapids below the drop and a 30-metre-high (100 ft) plunge downstream of the talus rapids.\n\nThe falls are along a fork of the R\u00edo Kerepacupai Mer\u00fa which flows into the Chur\u00fan River, a tributary of the Carrao River, itself a tributary of the Orinoco River.",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Why is Falmouth, Massachusetts a great place to visit for vacation?",
+    "context": "",
+    "response": "Falmouth, Massachusetts is located on Cape Cod, approximately 90 minutes south of Boston.  Falmouth offers many activities for adults and children, including beaches, bike trails, shopping, dining, minor league baseball, maritime activities, fairs and ferries to Martha's Vineyard and Nantucket.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Is there a correlation between the milestones required between Data AI/ML and Intelligent Automation (RPA) value curve over time?",
+    "context": "",
+    "response": "For organizations to achieve the most value from their data, they must establish a data foundation that allows for high-quality reporting on past events. Establishing a Databrick\u2019s Lakehouse foundation requires no AI/ML capabilities. Then, over time, use that data AI/ML to drive automated decisions for crucial business processes.  For this reason, there is a direct correlation between the \u201cvalue curve\u201d for both data and intelligent automation. \nThe value maturity curve for intelligent automation starts with basic, attended, or unattended automation that mimics basic human processes today. Then, as you mature your Robotic Process Automation (RPA) program, your automation(s) need to expand to include simple document understanding AI.  Extracting data from the same form hundreds or thousands of times is a good example. Finally, for any organization to gain the highest value and ROI for their intelligent automation investments, using complex AI/ML to produce automated decisions for digital workers (unattended automation) enables exceptionally complex, long-running automation to be successfully developed, put into production, and maintained over time.\n\nIn summary, think of \u201cAI/ML\u201d as the thinking and \u201cIntelligent Automation\u201d as the doing. The value of both Data and RPA to any organization grows exponentially over time as they develop their ability to apply to complex AI/ML such that those models deliver trusted automated decisions to the digital workforce running complex automation.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "In the following passage about mechanical-switch keyboards, which keyboards are the loudest, and how can I make them quieter?",
+    "context": "Every key on a mechanical-switch keyboard contains a complete switch underneath. Each switch is composed of a housing, a spring, and a stem, and sometimes other parts such as a separate tactile leaf or a clickbar. Switches come in three variants: \"linear\" with consistent resistance, \"tactile\" with a non-audible bump, and \"clicky\" with both a bump and an audible click. Depending on the resistance of the spring, the key requires different amounts of pressure to actuate and to bottom out. The shape of the stem as well as the design of the switch housing varies the actuation distance and travel distance of the switch. The sound can be altered by the material of the plate, case, lubrication, the keycap profile, and even modifying the individual switch. These modifications, or \"mods\" include applying lubricant to reduce friction inside the switch itself, inserting \"switch films\" to reduce wobble, swapping out the spring inside to modify the resistance of the switch itself and many more. Mechanical keyboards allow for the removal and replacement of keycaps with a common stem type.",
+    "response": "Mechanical-switch keyboards with \"Clicky\" switches come with both a bump and an audible click. Without adjusting the material of the plates or case, the way for users to reduce the noise would be to replace the keycaps or applying lubricant to reduce friction inside the switch.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Extract from this passage the the locations where the Patriots have held training camp and separate the answers with commas.",
+    "context": "The Patriots hold training camp and practices just outside of Gillette Stadium in Foxborough, with twin practice fields available for team use.\n\nPrior to 2003, the Patriots held training camp and practice at numerous locations. From 1976 to 2002, the team held training camp at Bryant College in Smithfield, Rhode Island. From 1960 to 1961, then from 1969 to 1975, the Patriots held training camp at University of Massachusetts Amherst. Between 1962 and 1968, the Patriots held training camp at Phillips Academy in Andover, Massachusetts.\n\nFrom 1971 until 2001, the Patriots would simply practice at Foxboro Stadium whenever the field was available, otherwise they would use the public football fields that were available in Foxborough.",
+    "response": "Outside Gillette Stadium, Bryant College, University of Massachusetts Amherst, Philips Academy, Foxboro Stadium, the public football fields available in Foxborough",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "What are the common formats of competitive debate in the US?",
+    "context": "",
+    "response": "- Public Forum\n- Lincoln-Douglas\n- Policy\n- Congressional Debate\n- British Parliamentary \n- World Schools Debate\n- International Public Policy Forum",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Identify which instrument is string or percussion: Bedug, Moraharpa",
+    "context": "",
+    "response": "Bedug is percussion, Moraharpa is string.",
+    "category": "classification"
+  },
+  {
+    "instruction": "Imagine you're planning a ski trip with your friends. What are some good areas to go skiing?",
+    "context": "",
+    "response": "There are many skiing spots around the world with various levels of difficulty. Some of the most well-known ski areas in the world are in North America, including in Whistler, BC, Lake Tahoe, CA, Park City, UT, various resorts in Colorado, and Mont Tremblant, Quebec.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "What are ten woodworking projects that I could complete in a weekend?",
+    "context": "",
+    "response": "1. A wine box\n2. A coat rack\n3. A cutting board\n4. A simple desk\n5. A bottle stopper\n6. A bowl\n7. A small shelf\n8. A picture frame\n9. A serving tray\n10. A garden bench",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "What is the best TV series for Kids?",
+    "context": "",
+    "response": "I loved to see Small Wonder.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "Given a reference text about Will Ferrell, tell me where he kickstarted his career, what group of comic actors he is considered part of, and how many Golden Globe Award nominations he has.",
+    "context": "John William Ferrell (/\u02c8f\u025br\u0259l/; born July 16, 1967) is an American actor, comedian, writer, and producer. Ferrell first established himself in the mid-1990s as a cast member on the NBC sketch comedy series Saturday Night Live, where he performed from 1995 to 2002, and has subsequently starred in comedy films such as Elf (2003), Anchorman: The Legend of Ron Burgundy (2004), Kicking & Screaming (2005), Talladega Nights: The Ballad of Ricky Bobby (2006), Semi-Pro (2008), Step Brothers (2008), and Land of the Lost (2009). He founded the comedy website Funny or Die in 2007 with his writing partner Adam McKay. Other notable film roles include Stranger than Fiction (2006), The Other Guys (2010), The Campaign (2012), Get Hard (2015), Holmes & Watson (2018), and the animated films Curious George (2006), Megamind (2010) and The Lego Movie film franchise (2014\u20132019).\n\nFerrell is considered a member of the \"Frat Pack\", a generation of leading Hollywood comic actors who emerged in the late 1990s and the 2000s, including Jack Black, Ben Stiller, Steve Carell, Vince Vaughn, Paul Rudd, and brothers Owen and Luke Wilson. He received an Emmy Award nomination for his work on Saturday Night Live, and three Golden Globe Award nominations for acting in The Producers (2005) and Stranger than Fiction (2006) and for producing Vice (2018). He was also named the best comedian of 2015 in the British GQ Men of the Year awards. Ferrell received a star on the Hollywood Walk of Fame on March 24, 2015.",
+    "response": "Will Ferrell kickstarted his career on the NBC sketch comedy series \"Saturday Night Live\". He is considered part of the \"Frat Pack\", and has received three Golden Globe Award nominations.",
+    "category": "closed_qa"
+  },
+  {
+    "instruction": "Tell me some facts about hemoglobin with the given text as a reference",
+    "context": "Hemoglobin\u00a0(haemoglobin\u00a0in\u00a0British English), abbreviated\u00a0Hb\u00a0or\u00a0Hgb, is the\u00a0iron-containing\u00a0oxygen-transport\u00a0metalloprotein\u00a0present in\u00a0red blood cells\u00a0(erythrocytes) of almost all\u00a0vertebrates (the exception being the fish family\u00a0 Channichthyidae )\u00a0as well as the tissues of some\u00a0invertebrates.Hemoglobin in\u00a0blood\u00a0carries oxygen from the respiratory organs (e.g.\u00a0lungs\u00a0or\u00a0gills) to the rest of the body (i.e.\u00a0tissues). There it releases the oxygen to permit\u00a0aerobic respiration\u00a0to provide energy to power functions of an organism in the process called\u00a0metabolism. A healthy individual human has 12\u00a0to 20\u00a0grams of hemoglobin in every 100\u00a0mL of blood.",
+    "response": "1. Hemoglobin/Hb/Hgb is the\u00a0iron-containing\u00a0oxygen-transport\u00a0metalloprotein which is\u00a0present\nin\u00a0red blood cells\u00a0(erythrocytes) of almost all\u00a0vertebrates (the exception being the fish\nfamily\u00a0 Channichthyidae )\u00a0as well as the tissues of some\u00a0invertebrates\n2. Hemoglobin carries oxygen in blood from respiratory organs (e.g.\u00a0lungs\u00a0or\u00a0gills) to rest of the\nbody(i.e. tissue).\n3. Metablolism is the energy to power functions of an organism. Hemoglobin releases the oxygen\nto permit\u00a0aerobic respiration .\n4. Healthy human have 12 to 25 grams of hemoglobin in every 100\u00a0mL of blood.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "Write a haiku from the perspective of a child who does not like piano lessons.",
+    "context": "",
+    "response": "Monday lessons are \nLike a weekly prison camp.\nI hate piano.",
+    "category": "creative_writing"
+  },
+  {
+    "instruction": "Why do people love the FIFA world cup?",
+    "context": "",
+    "response": "The FIFA world cup is loved by all because it is the one sporting event that brings national communities to rally around a common sport.  Futbol (football) or soccer as it is known in the United States has a way to unite and nations and cheer for their favorite national team.  It is arguably the one sport that has an equal playing field.  All one needs is a ball and players for any to play.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "What is a noun?",
+    "context": "",
+    "response": "A noun is a word that is used to identify a person, place, or thing.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "How many syllables are in the word cat?",
+    "context": "",
+    "response": "The word cat has only one syllable.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "What is basketball?",
+    "context": "",
+    "response": "Basketball is a sport where two teams play against each other on a court with two hoops.  One hoop is for each team.  Each teams scores a point by putting a ball through the opponent's hoop.  They play against each other in a rectangular style court and each team consists of 5 players each.",
+    "category": "open_qa"
+  },
+  {
+    "instruction": "List the components from this text into a comma separated list",
+    "context": "Components\nBelow are some of the components and processes involved in the digital supply chain, in roughly sequential order, to bring raw content to a format available to a consumer via personal computer or set-top box:\n\nContent Provider\nThe content provider provides the actual content that will ultimately be consumed by the end-user. The content provider provides the content in a variety of formats - including film, tape, CD, DVD, hard disks and digital files.\n\nCapture\nIf the content provided by the content provider is not already in a digital format, it must first be converted to a digital format. In the case of film or tape, this is often called the \u201ccapture\u201d process in which hardware will play back the original medium and \u201ccapture\u201d its contents and convert it into a digital format. This captured file is often captured at the highest feasible quality as it is expected to undergo various processes that could degrade the quality. Therefore, the highest possible capture is always desired.\n\nCompression\nThe captured digital file is often extremely large, requiring a large amount of digital storage space and impossible to deliver to the consumer via broadband methods. Therefore, it must be compressed in a process called encoding or transcoding.\n\nIn this process, a codec is used to compress the captured digital file into a format which is small enough to be delivered to the end-user, usually via broadband methods. This encoding process entails consideration of many variables as to how the file is to be compressed. For audio, this usually consists of bit-rate and sample rate. Additional variables for video include resolution, frame rate and also has its own bit-rate that needs to be specified.\n\nThese variables are determined by how a particular file is to be consumed; download, streaming to a PC, streaming to a mobile device, etc.\n\nQuality, however, often becomes an issue at this stage and great care is taken to ensure the quality of the medium is of the highest possible quality for its intended deliver method. For example, a video encoded for streaming to mobile devices requires a much higher level of compression than would for a PC download, so the quality of the video will not be nearly as good.\n\nQuality Control\nQuality control is required to ensure that a file that has been encoded properly, with desired results and free of corruption. The degree to which a file is considered acceptable is based either on the discretion of the party charged with encoding the content, or a specific standard defined by the content owner for which the encoding party must comply.\n\nQuality control need not only take place at this juncture. Most companies dealing with the digital supply chain process will subject the media to scrutiny of the quality control process at various stages including: original capture, post-compression, post-ingest and post-publish, thus ensuring the media has not become corrupt or has not been degraded undesirably during any stage along the digital supply chain process.\n\nDigital Asset Management\nThe digital asset management system handles the metadata, content and their related assets such as album cover and movie poster art. It is often the digital asset management systems which also handles the publishing of the content itself to a digital storefront. Some digital asset management systems specifically built for the digital supply chain and the delivery of electronic media will track the progress of content as it goes through the digital supply chain. A good digital asset management system should also include reporting tools which can report back on the status of various aspects of the digital supply chain itself.\n\nMetadata Entry\nMetadata is the information that identifies and describes the contents of a medium. This information can include media-specific information such as: Title, artist(s), production company, seasonal/episodic description, original release date, etc. Metadata can also include business-related information such as: pricing and availability.\n\nDigital Rights Management\nAn important aspect of the digital supply chain is the process of encrypting the content so that it cannot be played back without the proper license which is often acquired via purchase of content or subscription. This reduces the possibility of media being pirated.\n\nIngest\nIngest is the stage in which the compressed file and metadata are put into the digital asset management system. It is not necessary for the metadata and the compressed media file to be ingested into the system at the same time, however, there will be a point in the process in which both have been ingested into the system and the metadata can reference the media file.\n\nContent Delivery Network\nWhen media files are ingested they are hosted and delivered from a content delivery network (CDN) capable of delivering the media to the end-user. The CDN should be able to support the expected number of consumers.\n\nMerchant/Storefront/Digital Retailer/Digital Service Provider\nThe content will ultimately display on a digital storefront where the consumer can view a catalog listing of the content and access the content via purchase, subscription or other method a merchant has elected to make the content available.",
+    "response": "Content Provider, Capture, Compression, Quality Control, Digital Asset Management, Metadata, Entry, Digital Rights Management, Ingest, Content Delivery Network, Merchant/Storefront/Digital, Retailer/Digital Service Provider",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "Tell me whether those countries are in Europe or America: England, United states, France, Spain, Canada, Italy, Colombia, Peru",
+    "context": "",
+    "response": "England is in Europe, United States is in America, France is in Europe, Spain is in Europe, Canada is in America, Italy is in Europe, Colombia is in America, Peru is in America",
+    "category": "classification"
+  },
+  {
+    "instruction": "Make me a list of types of pies I can make",
+    "context": "",
+    "response": "You could make a pumpkin, pecan, berry, apple, peach or chocolate pie",
+    "category": "brainstorming"
+  },
+  {
+    "instruction": "Extract the airlines mentioned in the text and separate them with a comma.  Which one operated the shortest flight?",
+    "context": "In June 2017 after 30 months in commercial operation, 80 A350s were in service with 12 operators, the largest being Qatar Airways with 17 and 13 each at Cathay Pacific and Singapore Airlines (SIA). The fleet average block time (time between pushback and destination gate arrival) was 7.2 hours with 53% below 3,000 nmi (5,556 km), 16% over 5,000 nmi (9,260 km), and 31% in between. LATAM Airlines had the longest average sector at 10.7 hours, and Asiana had the shortest at 3.8 hours. Singapore Airlines operated the longest leg, Singapore to San Francisco 7,340 nmi (13,594 km), and the shortest leg, Singapore to Kuala Lumpur 160 nmi (296 km). Seating varied from 253 for Singapore Airlines to 389 for Air Cara\u00efbes, with most between 280 and 320.",
+    "response": "Qatar Airways, Cathay Pacific, Singapore Airlines, LATAM Airlines, Air Cara\u00efbes.  Singapore Airlines operated the shortest flight.",
+    "category": "information_extraction"
+  },
+  {
+    "instruction": "List me some details regarding carreer of lawyer Harry L. Shorstein",
+    "context": "Harry L. Shorstein (born August 3, 1940) is an American lawyer who served as State Attorney for Florida's Fourth Judicial Circuit Court, covering Duval, Clay and Nassau counties, from 1991\u20132008. A member of the Democratic Party, he was appointed to the post in 1991 by Governor Lawton Chiles to fill the remaining term of Ed Austin, who resigned to successfully run for mayor of Jacksonville. He was elected to a full term in 1992, re-elected in 1996, and ran unopposed in 2000 and 2004. At a February 6, 2007 news conference, the 66-year-old lawyer announced that he would not run for re-election in 2008. He subsequently returned to private practice, and was succeeded as State Attorney by Angela Corey.",
+    "response": "1. From 1991 to 2008, Harry L. Shorstein, an American attorney who was born on August 3, 1940, served as State Attorney for Florida's Fourth Judicial Circuit Court, which includes Duval, Clay, and Nassau counties.\n2. A Democrat, he was chosen by Governor Lawton Chiles to serve Ed Austin's unexpired term after the latter resigned to run successfully for mayor of Jacksonville.\n3. He won re-election to a full term in 1992, was unchallenged in 2000 and 2004 and was re-elected in 1996.\n4. The 66-year-old attorney declared he would not seek re-election in 2008 at a news conference on February 6, 2007.\n5. He later went back to private practice, and Angela Corey took over as state attorney.",
+    "category": "summarization"
+  },
+  {
+    "instruction": "First, it's important to know what your goal is with a bicycle. If you go out with the family, you can choose a regular bicycle, but if you go to use for competition, it is better to choose a more sophisticated carbon fiber bicycle, for gain more performance in races.",
+    "context": "",
+    "response": "It is correct, but I would also recommend checking the purpose of buying a bicycle, and evaluate the cost-benefit.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "What happens to helicopter pilots during an emergency?  Do they have ejector seats like in jets?",
+    "context": "",
+    "response": "No, helicopters do not have ejector seats because they would eject the pilot into the helicopter's rotor system.  During an emergency or other loss of power, helicopter pilots auto-rotate.  Auto-rotation is the decoupling of the rotor system from the engines to allow upward air flow to drive the rotor system at a faster than normal rate, providing kinetic energy that can be traded to arrest the helicopter's rate of descent.  To initiate auto-rotation, the helicopter pilot flattens the pitch in the rotor system's blades, reducing drag, and allowing the upward flow of air to drive its rotation.  When the helicopter is 100-150 feet above the ground, the pilot will then aggressively increase the pitch of the rotor system's blades, temporarily increasing lift and cushioning the helicopter's landing.",
+    "category": "general_qa"
+  },
+  {
+    "instruction": "Based on this text, where was Susan Eaton a professor?",
+    "context": "Susan Catharine Eaton (July 9, 1957 \u2013 December 30, 2003) was an American political scientist and workers' rights activist. Eaton was an assistant professor of public policy at Harvard Kennedy School, who became a nursing home researcher at Harvard and workers' activist. She wrote about health care management, women's role in union leadership and work-family issues and gender equity in the workplace.",
+    "response": "Based on this text, Susan Eaton was a professor at Harvard Kennedy School.",
+    "category": "closed_qa"
+  }
+]

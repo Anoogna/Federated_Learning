@@ -1,0 +1,64 @@
+experiment_id: exp_quick_gpu
+description: "Fast GPU benchmark suite (200 samples, 3 rounds) running in ~2 minutes on Colab"
+output_dir: outputs/quick_gpu
+seed: 42
+device: cuda
+
+model:
+  model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+  is_surrogate: false
+  vocab_size: 151936
+  hidden_size: 896
+  num_hidden_layers: 24
+  num_attention_heads: 14
+  max_seq_length: 128
+  torch_dtype: float16
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+  bias: none
+
+data:
+  dataset_name: databricks/databricks-dolly-15k
+  num_samples: 200
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  partition_strategy: non_iid_dirichlet
+  dirichlet_alpha: 0.5
+  num_clients: 3
+  seed: 42
+  cache_dir: data/cache
+
+privacy:
+  enabled: true
+  privacy_unit: client
+  clipping_norm: 1.0
+  noise_multiplier: 1.0
+  target_delta: 0.00001
+  accountant_type: rdp
+
+compression:
+  enabled: true
+  strategy: adaptive_adacomp
+  fixed_k_ratio: 0.10
+  adaptive_min_ratio: 0.02
+  adaptive_max_ratio: 0.25
+  energy_threshold: 0.85
+  error_feedback: true
+  quantization_bits: 16
+
+federated:
+  num_rounds: 3
+  clients_per_round: 3
+  local_epochs: 1
+  local_batch_size: 4
+  local_lr: 0.0002
+  aggregation_strategy: fedavg
